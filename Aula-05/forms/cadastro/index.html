@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    <h1>Ficha cadastral</h1>
+    <hr>
+    <br>
+        <form action="">
+            <div>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" placeholder="Seu nome aqui">
+            </div>
+
+            <br>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="exemplo@gmail.com">
+            </div>
+            <br>
+            <div>
+                <label for="senha">Senha:</label>
+                <input required type="password" name="senha" id="senha" placeholder="**********" minlength="8" maxlength="64">
+            </div>
+            <br>
+            <div>
+                <label for="senha2">Confirmação de senha:</label>
+                <input required type="password" name="senha2" id="senha2" placeholder="**********" minlength="8" maxlength="64">
+            </div>
+
+            <button>Enviar</button>
+            <button type="reset">Limpar</button>
+        </form>
+</body>
+</html>
