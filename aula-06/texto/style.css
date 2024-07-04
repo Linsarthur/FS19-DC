@@ -1,0 +1,31 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+p{
+    font-size: 20px;
+    color: hsla(360, 100%, 50%, 1);
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+}
+
+.segundo{
+    color: darkblue;
+    font-weight: 400;
+    font-style: italic;
+    font-family: lato, sans-serif;
+}
+
+.monalisa{
+    
+    background-image: url("https://th.bing.com/th/id/OIP.pgG9VUlAzK8m9K67uzOkpwHaJ6?rs=1&pid=ImgDetMain");
+    width: 250px;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    
+}
